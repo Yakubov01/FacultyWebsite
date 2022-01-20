@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "es7"],
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "strict": false,
+    //current it needs false
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "strictPropertyInitialization": false /* Enable strict checking of property initialization in classes. */
+  },
+  "files": ["./src/types.d.ts"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "typeRoots": ["./node_modules/@types"]
+}
